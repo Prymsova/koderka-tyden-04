@@ -25,3 +25,16 @@ a:hover {
 }
 
 /* ---------------------------------------------------- */
+.hlavicka {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+

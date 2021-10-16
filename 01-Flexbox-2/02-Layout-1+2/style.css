@@ -16,4 +16,35 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  display: flex;
+}
+
+.levy,
+.pravy {
+  flex-basis: 50%;
+}
+
+.pravy {
+  display: flex;
+  flex-direction: column;
+}
+
+.horni,
+.dolni {
+  flex-basis: 50%;
+}
+
+
+/*
+TOTO JE ŠPATNĚ
+.blok {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.pravy {
+  display: flex;
+  flex-direction: column;
+}*/
 
