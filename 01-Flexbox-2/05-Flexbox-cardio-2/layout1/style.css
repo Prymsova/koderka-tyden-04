@@ -19,6 +19,33 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+body {
+	margin: 0;
+}
+
+header,
+footer {
+	height: 20vh;
+}
+
+.main {
+	display: flex;
+	height: 60vh;
+}
+
+article {
+	flex: 1 1 60vw;
+}
+/*já měla jen flex-basis: 60vw, ale je potřeba dovolit roztahovat i smršťovat pro hlavní článek*/
+
+aside,
+nav {
+	flex: 0 0 20vw;
+}
+
+
+/* moje nedokonalé řešení
+
 header {
 	padding: 15px;
 }
@@ -43,3 +70,4 @@ nav {
 	flex-basis: 20%;
 	padding: 15px;
 }
+*/

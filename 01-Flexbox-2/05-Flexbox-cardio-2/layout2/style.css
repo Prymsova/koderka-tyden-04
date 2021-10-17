@@ -19,6 +19,41 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+body {
+	margin: 0;
+}
+.kontejner {
+	display: flex;
+}
+.main {
+	order: 2;
+	flex: 1 1 80vw;
+}
+.menu {
+	order: 1;
+	flex: 0 0 20vw;
+} /*potud jsem to vymyslela dobře a dál... buď vpravo vyřešit zalamováním -tak jsem to měla minule viz dole-, anebo prostřední dva divy dát do dalšího divu a dát vertikální směr hlavní osy*/
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+header,
+footer {
+	flex: 0 0 20vh;
+}
+.obsah {
+	flex: 1 1 60vh;
+	display: flex;
+}
+article {
+	flex: 1 1 60vw;
+}
+aside {
+	flex: 0 0 20vw;
+}
+
+/* MOJE PŮVODNÍ ŘEŠENÍ
 header,
 footer,
 aside,
@@ -59,3 +94,4 @@ article {
 aside {
 	flex-basis: 25%;
 }
+*/
